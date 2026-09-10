@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pyyaml>=6.0
+pydantic>=2.5
+
+# 本地推理（生产配置，默认关闭）
+# 无需额外 Python 依赖：Ollama / vLLM 均提供 OpenAI 兼容 HTTP 服务，
+# 项目用标准库 urllib 直连，见 config.yaml llm 段与 scripts/bench_infer.py

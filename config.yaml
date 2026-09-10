@@ -1,0 +1,44 @@
+# 掌柜管家 · 商户运营 LLM Agent 配置
+
+merchant:
+  name: 青柠小铺
+  type: 奶茶轻食
+
+# 业务「今天」锚点：与 data/*.json 生成时的时间基准一致，保证相对时间解析与评测确定性
+business:
+  today: "2026-09-09"
+
+agent:
+  max_iters: 6              # ReAct 最大循环轮数
+  max_history_turns: 6      # 短期记忆保留的最大对话轮数
+  max_context_tokens: 1200  # 短期上下文 token 预算
+
+memory:
+  longterm_dim: 256         # 长期记忆片段向量维度（字符 bigram 哈希）
+  recall_topk: 3            # 每次注入的历史片段数
+  max_facts: 20             # 长期事实最大条数
+
+llm:
+  # provider = rule   : 规则基线路径，零依赖离线可复现（默认）
+  # provider = openai : 任意 OpenAI 兼容服务（Ollama: http://127.0.0.1:11434/v1，
+  #                     vLLM: http://127.0.0.1:8000/v1）
+  provider: "rule"
+  api_base: "http://127.0.0.1:11434/v1"
+  api_key: "ollama"
+  model: "qwen2.5:7b-instruct-q4_K_M"
+  temperature: 0.2
+  max_tokens: 512
+  timeout: 60
+
+structured:
+  max_retries: 2            # JSON 校验失败后的带错误反馈重试次数
+
+inventory:
+  low_stock_threshold: 40   # 库存预警线
+
+server:
+  host: 127.0.0.1
+  port: 8010
+
+evaluation:
+  report_path: "data/logs/eval_report.json"

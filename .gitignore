@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+data/sessions/
+data/logs/
+data/mutations.jsonl
+.DS_Store

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>掌柜管家 · 商户运营助手</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: #f5f6f8; height: 100vh; display: flex; flex-direction: column; }
+  header { background: #1f6f5c; color: #fff; padding: 14px 20px; font-size: 17px; }
+  header small { opacity: .8; margin-left: 10px; }
+  #chat { flex: 1; overflow-y: auto; padding: 18px; max-width: 780px; margin: 0 auto; width: 100%; }
+  .msg { margin-bottom: 14px; display: flex; }
+  .msg.user { justify-content: flex-end; }
+  .bubble { max-width: 76%; padding: 10px 14px; border-radius: 12px; line-height: 1.6;
+            white-space: pre-wrap; font-size: 14px; }
+  .msg.user .bubble { background: #1f6f5c; color: #fff; border-bottom-right-radius: 3px; }
+  .msg.bot .bubble { background: #fff; border: 1px solid #e3e6ea; border-bottom-left-radius: 3px; }
+  .meta { font-size: 11px; color: #9aa2ab; margin-top: 4px; }
+  form { display: flex; gap: 8px; padding: 12px 18px; background: #fff;
+         border-top: 1px solid #e3e6ea; max-width: 780px; margin: 0 auto; width: 100%; }
+  input { flex: 1; padding: 10px 12px; border: 1px solid #d8dde3; border-radius: 8px; font-size: 14px; }
+  button { padding: 10px 20px; background: #1f6f5c; color: #fff; border: 0; border-radius: 8px; cursor: pointer; }
+  .hint { font-size: 12px; color: #8b939c; padding: 0 18px 10px; max-width: 780px; margin: 0 auto; width: 100%; }
+</style>
+</head>
+<body>
+<header>掌柜管家 · 商户运营助手<small id="status"></small></header>
+<div id="chat"></div>
+<form id="f">
+  <input id="q" placeholder="试试：现在哪些商品库存不足 / 创建满20减5的券 / 上月销售报表" autocomplete="off">
+  <button>发送</button>
+</form>
+<div class="hint">示例：查订单 SO20260905-0042 · 把P1003改价到9.9 · 处理退款 · 拉新活动方案 · 最近差评</div>
+<script>
+const box = document.getElementById('chat');
+function add(role, text, meta) {
+  const d = document.createElement('div');
+  d.className = 'msg ' + role;
+  const b = document.createElement('div');
+  b.className = 'bubble';
+  b.textContent = text;
+  d.appendChild(b);
+  if (meta) {
+    const m = document.createElement('div');
+    m.className = 'meta'; m.style.maxWidth = '76%';
+    m.style.marginLeft = role === 'user' ? 'auto' : '0';
+    m.textContent = meta;
+    d.appendChild(m);
+  }
+  box.appendChild(d);
+  box.scrollTop = box.scrollHeight;
+}
+fetch('/api/health').then(r => r.json()).then(h => {
+  document.getElementById('status').textContent =
+    '已连接 · ' + h.tools + ' 个工具 · LLM: ' + h.llm_provider;
+}).catch(() => {});
+document.getElementById('f').addEventListener('submit', async e => {
+  e.preventDefault();
+  const q = document.getElementById('q').value.trim();
+  if (!q) return;
+  document.getElementById('q').value = '';
+  add('user', q);
+  try {
+    const r = await fetch('/api/chat', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({session_id: 'web', message: q})
+    }).then(r => r.json());
+    add('bot', r.answer,
+        '意图: ' + r.intent + ' · 工具: ' + (r.tool_calls.map(c => c.tool).join(', ') || '无') + ' · ' + r.elapsed_ms + 'ms');
+  } catch (err) {
+    add('bot', '服务异常：' + err);
+  }
+});
+</script>
+</body>
+</html>

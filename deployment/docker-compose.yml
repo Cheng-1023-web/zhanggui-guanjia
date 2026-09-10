@@ -1,0 +1,44 @@
+# 掌柜管家 · 双容器部署：vLLM 推理服务 + Agent API
+# 启动： docker compose -f deployment/docker-compose.yml up -d
+# GPU 侧按需改 MODEL 与端口。
+services:
+  vllm:
+    image: vllm/vllm-openai:latest
+    container_name: guanjia-vllm
+    command: >
+      --model Qwen/Qwen2.5-7B-Instruct
+      --served-model-name qwen2.5-7b-instruct
+      --max-model-len 8192
+      --gpu-memory-utilization 0.85
+      --enable-prefix-caching
+    ports:
+      - "8000:8000"
+    volumes:
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/v1/models"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  agent:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    container_name: guanjia-agent
+    environment:
+      - GUANJIA_LLM_PROVIDER=openai
+      - GUANJIA_LLM_API_BASE=http://vllm:8000/v1
+      - GUANJIA_LLM_MODEL=qwen2.5-7b-instruct
+    ports:
+      - "8010:8010"
+    depends_on:
+      vllm:
+        condition: service_healthy
