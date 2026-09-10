@@ -1,0 +1,1082 @@
+[
+  {
+    "order_id": "SO20260712-0054",
+    "product_id": "P1004",
+    "qty": 2,
+    "amount": 32.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-12T09:11:00"
+  },
+  {
+    "order_id": "SO20260712-0091",
+    "product_id": "P1005",
+    "qty": 4,
+    "amount": 60.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-12T12:04:00"
+  },
+  {
+    "order_id": "SO20260712-0034",
+    "product_id": "P1013",
+    "qty": 2,
+    "amount": 18.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-12T16:30:00"
+  },
+  {
+    "order_id": "SO20260713-0119",
+    "product_id": "P1005",
+    "qty": 2,
+    "amount": 30.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-13T11:50:00"
+  },
+  {
+    "order_id": "SO20260713-0048",
+    "product_id": "P1014",
+    "qty": 1,
+    "amount": 10.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-13T15:53:00"
+  },
+  {
+    "order_id": "SO20260714-0014",
+    "product_id": "P1010",
+    "qty": 4,
+    "amount": 44.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-14T11:32:00"
+  },
+  {
+    "order_id": "SO20260714-0025",
+    "product_id": "P1009",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-14T12:04:00"
+  },
+  {
+    "order_id": "SO20260714-0072",
+    "product_id": "P1013",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "refunded",
+    "channel": "外卖",
+    "created_at": "2026-07-14T12:11:00"
+  },
+  {
+    "order_id": "SO20260716-0109",
+    "product_id": "P1008",
+    "qty": 1,
+    "amount": 15.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-16T16:04:00"
+  },
+  {
+    "order_id": "SO20260718-0051",
+    "product_id": "P1006",
+    "qty": 2,
+    "amount": 36.0,
+    "status": "shipped",
+    "channel": "堂食",
+    "created_at": "2026-07-18T09:19:00"
+  },
+  {
+    "order_id": "SO20260718-0076",
+    "product_id": "P1015",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-18T16:28:00"
+  },
+  {
+    "order_id": "SO20260718-0019",
+    "product_id": "P1011",
+    "qty": 2,
+    "amount": 16.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-18T21:10:00"
+  },
+  {
+    "order_id": "SO20260718-0092",
+    "product_id": "P1011",
+    "qty": 2,
+    "amount": 16.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-18T21:19:00"
+  },
+  {
+    "order_id": "SO20260719-0057",
+    "product_id": "P1013",
+    "qty": 2,
+    "amount": 18.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-19T19:12:00"
+  },
+  {
+    "order_id": "SO20260720-0082",
+    "product_id": "P1010",
+    "qty": 2,
+    "amount": 22.0,
+    "status": "shipped",
+    "channel": "堂食",
+    "created_at": "2026-07-20T13:27:00"
+  },
+  {
+    "order_id": "SO20260720-0044",
+    "product_id": "P1011",
+    "qty": 1,
+    "amount": 8.0,
+    "status": "pending_payment",
+    "channel": "小程序",
+    "created_at": "2026-07-20T13:59:00"
+  },
+  {
+    "order_id": "SO20260722-0020",
+    "product_id": "P1015",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "pending_ship",
+    "channel": "外卖",
+    "created_at": "2026-07-22T16:01:00"
+  },
+  {
+    "order_id": "SO20260723-0108",
+    "product_id": "P1008",
+    "qty": 1,
+    "amount": 15.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-23T13:30:00"
+  },
+  {
+    "order_id": "SO20260723-0086",
+    "product_id": "P1014",
+    "qty": 4,
+    "amount": 40.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-23T16:01:00"
+  },
+  {
+    "order_id": "SO20260723-0081",
+    "product_id": "P1007",
+    "qty": 4,
+    "amount": 56.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-07-23T20:34:00"
+  },
+  {
+    "order_id": "SO20260724-0090",
+    "product_id": "P1012",
+    "qty": 1,
+    "amount": 12.0,
+    "status": "refunded",
+    "channel": "堂食",
+    "created_at": "2026-07-24T13:06:00"
+  },
+  {
+    "order_id": "SO20260724-0064",
+    "product_id": "P1015",
+    "qty": 2,
+    "amount": 18.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-07-24T13:25:00"
+  },
+  {
+    "order_id": "SO20260724-0114",
+    "product_id": "P1002",
+    "qty": 2,
+    "amount": 26.0,
+    "status": "pending_payment",
+    "channel": "堂食",
+    "created_at": "2026-07-24T13:42:00"
+  },
+  {
+    "order_id": "SO20260724-0105",
+    "product_id": "P1009",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-24T20:30:00"
+  },
+  {
+    "order_id": "SO20260725-0036",
+    "product_id": "P1013",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-25T13:13:00"
+  },
+  {
+    "order_id": "SO20260725-0010",
+    "product_id": "P1004",
+    "qty": 2,
+    "amount": 32.0,
+    "status": "shipped",
+    "channel": "外卖",
+    "created_at": "2026-07-25T13:59:00"
+  },
+  {
+    "order_id": "SO20260725-0005",
+    "product_id": "P1008",
+    "qty": 1,
+    "amount": 15.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-25T17:18:00"
+  },
+  {
+    "order_id": "SO20260725-0028",
+    "product_id": "P1015",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-25T21:26:00"
+  },
+  {
+    "order_id": "SO20260725-0096",
+    "product_id": "P1009",
+    "qty": 3,
+    "amount": 36.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-07-25T21:30:00"
+  },
+  {
+    "order_id": "SO20260726-0024",
+    "product_id": "P1005",
+    "qty": 4,
+    "amount": 60.0,
+    "status": "pending_payment",
+    "channel": "小程序",
+    "created_at": "2026-07-26T14:28:00"
+  },
+  {
+    "order_id": "SO20260727-0009",
+    "product_id": "P1015",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-07-27T11:34:00"
+  },
+  {
+    "order_id": "SO20260727-0071",
+    "product_id": "P1007",
+    "qty": 4,
+    "amount": 56.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-27T11:41:00"
+  },
+  {
+    "order_id": "SO20260727-0073",
+    "product_id": "P1009",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-27T12:58:00"
+  },
+  {
+    "order_id": "SO20260727-0080",
+    "product_id": "P1001",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "shipped",
+    "channel": "堂食",
+    "created_at": "2026-07-27T14:19:00"
+  },
+  {
+    "order_id": "SO20260728-0061",
+    "product_id": "P1012",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-28T10:42:00"
+  },
+  {
+    "order_id": "SO20260728-0110",
+    "product_id": "P1001",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-28T13:05:00"
+  },
+  {
+    "order_id": "SO20260729-0045",
+    "product_id": "P1002",
+    "qty": 2,
+    "amount": 26.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-07-29T10:47:00"
+  },
+  {
+    "order_id": "SO20260729-0063",
+    "product_id": "P1007",
+    "qty": 3,
+    "amount": 42.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-29T13:35:00"
+  },
+  {
+    "order_id": "SO20260730-0101",
+    "product_id": "P1012",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "shipped",
+    "channel": "堂食",
+    "created_at": "2026-07-30T10:18:00"
+  },
+  {
+    "order_id": "SO20260730-0030",
+    "product_id": "P1002",
+    "qty": 1,
+    "amount": 13.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-07-30T14:51:00"
+  },
+  {
+    "order_id": "SO20260731-0001",
+    "product_id": "P1002",
+    "qty": 1,
+    "amount": 13.0,
+    "status": "refunded",
+    "channel": "外卖",
+    "created_at": "2026-07-31T12:14:00"
+  },
+  {
+    "order_id": "SO20260731-0047",
+    "product_id": "P1014",
+    "qty": 3,
+    "amount": 30.0,
+    "status": "shipped",
+    "channel": "外卖",
+    "created_at": "2026-07-31T13:57:00"
+  },
+  {
+    "order_id": "SO20260731-0008",
+    "product_id": "P1014",
+    "qty": 3,
+    "amount": 30.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-07-31T14:13:00"
+  },
+  {
+    "order_id": "SO20260731-0015",
+    "product_id": "P1003",
+    "qty": 4,
+    "amount": 40.0,
+    "status": "pending_ship",
+    "channel": "堂食",
+    "created_at": "2026-07-31T15:24:00"
+  },
+  {
+    "order_id": "SO20260731-0077",
+    "product_id": "P1004",
+    "qty": 3,
+    "amount": 48.0,
+    "status": "shipped",
+    "channel": "堂食",
+    "created_at": "2026-07-31T20:18:00"
+  },
+  {
+    "order_id": "SO20260731-0011",
+    "product_id": "P1012",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "refund_requested",
+    "channel": "外卖",
+    "created_at": "2026-07-31T21:49:00"
+  },
+  {
+    "order_id": "SO20260801-0062",
+    "product_id": "P1006",
+    "qty": 1,
+    "amount": 18.0,
+    "status": "refund_requested",
+    "channel": "外卖",
+    "created_at": "2026-08-01T17:19:00"
+  },
+  {
+    "order_id": "SO20260801-0084",
+    "product_id": "P1009",
+    "qty": 1,
+    "amount": 12.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-01T18:42:00"
+  },
+  {
+    "order_id": "SO20260801-0006",
+    "product_id": "P1015",
+    "qty": 3,
+    "amount": 27.0,
+    "status": "pending_ship",
+    "channel": "堂食",
+    "created_at": "2026-08-01T20:04:00"
+  },
+  {
+    "order_id": "SO20260802-0093",
+    "product_id": "P1013",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "pending_ship",
+    "channel": "堂食",
+    "created_at": "2026-08-02T14:34:00"
+  },
+  {
+    "order_id": "SO20260802-0066",
+    "product_id": "P1011",
+    "qty": 3,
+    "amount": 24.0,
+    "status": "shipped",
+    "channel": "外卖",
+    "created_at": "2026-08-02T16:43:00"
+  },
+  {
+    "order_id": "SO20260802-0016",
+    "product_id": "P1008",
+    "qty": 3,
+    "amount": 45.0,
+    "status": "pending_ship",
+    "channel": "堂食",
+    "created_at": "2026-08-02T19:46:00"
+  },
+  {
+    "order_id": "SO20260803-0037",
+    "product_id": "P1012",
+    "qty": 1,
+    "amount": 12.0,
+    "status": "refunded",
+    "channel": "外卖",
+    "created_at": "2026-08-03T09:03:00"
+  },
+  {
+    "order_id": "SO20260803-0113",
+    "product_id": "P1007",
+    "qty": 3,
+    "amount": 42.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-08-03T09:39:00"
+  },
+  {
+    "order_id": "SO20260805-0033",
+    "product_id": "P1002",
+    "qty": 1,
+    "amount": 13.0,
+    "status": "pending_payment",
+    "channel": "小程序",
+    "created_at": "2026-08-05T09:05:00"
+  },
+  {
+    "order_id": "SO20260805-0065",
+    "product_id": "P1014",
+    "qty": 1,
+    "amount": 10.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-08-05T12:27:00"
+  },
+  {
+    "order_id": "SO20260805-0103",
+    "product_id": "P1006",
+    "qty": 3,
+    "amount": 54.0,
+    "status": "refund_requested",
+    "channel": "外卖",
+    "created_at": "2026-08-05T13:19:00"
+  },
+  {
+    "order_id": "SO20260805-0100",
+    "product_id": "P1001",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-05T20:26:00"
+  },
+  {
+    "order_id": "SO20260808-0038",
+    "product_id": "P1015",
+    "qty": 2,
+    "amount": 18.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-08T10:54:00"
+  },
+  {
+    "order_id": "SO20260808-0018",
+    "product_id": "P1013",
+    "qty": 2,
+    "amount": 18.0,
+    "status": "shipped",
+    "channel": "堂食",
+    "created_at": "2026-08-08T19:19:00"
+  },
+  {
+    "order_id": "SO20260809-0083",
+    "product_id": "P1001",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-09T19:51:00"
+  },
+  {
+    "order_id": "SO20260811-0097",
+    "product_id": "P1007",
+    "qty": 3,
+    "amount": 42.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-11T10:17:00"
+  },
+  {
+    "order_id": "SO20260811-0089",
+    "product_id": "P1012",
+    "qty": 3,
+    "amount": 36.0,
+    "status": "refunded",
+    "channel": "外卖",
+    "created_at": "2026-08-11T11:38:00"
+  },
+  {
+    "order_id": "SO20260811-0074",
+    "product_id": "P1003",
+    "qty": 4,
+    "amount": 40.0,
+    "status": "pending_payment",
+    "channel": "小程序",
+    "created_at": "2026-08-11T17:38:00"
+  },
+  {
+    "order_id": "SO20260811-0041",
+    "product_id": "P1006",
+    "qty": 1,
+    "amount": 18.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-08-11T18:36:00"
+  },
+  {
+    "order_id": "SO20260812-0120",
+    "product_id": "P1002",
+    "qty": 4,
+    "amount": 52.0,
+    "status": "refund_requested",
+    "channel": "外卖",
+    "created_at": "2026-08-12T20:25:00"
+  },
+  {
+    "order_id": "SO20260812-0003",
+    "product_id": "P1010",
+    "qty": 3,
+    "amount": 33.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-12T20:27:00"
+  },
+  {
+    "order_id": "SO20260813-0060",
+    "product_id": "P1010",
+    "qty": 1,
+    "amount": 11.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-13T12:16:00"
+  },
+  {
+    "order_id": "SO20260813-0095",
+    "product_id": "P1006",
+    "qty": 4,
+    "amount": 72.0,
+    "status": "refund_requested",
+    "channel": "堂食",
+    "created_at": "2026-08-13T15:11:00"
+  },
+  {
+    "order_id": "SO20260813-0094",
+    "product_id": "P1011",
+    "qty": 3,
+    "amount": 24.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-13T19:21:00"
+  },
+  {
+    "order_id": "SO20260813-0029",
+    "product_id": "P1007",
+    "qty": 4,
+    "amount": 56.0,
+    "status": "refund_requested",
+    "channel": "堂食",
+    "created_at": "2026-08-13T19:41:00"
+  },
+  {
+    "order_id": "SO20260815-0039",
+    "product_id": "P1002",
+    "qty": 2,
+    "amount": 26.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-08-15T09:39:00"
+  },
+  {
+    "order_id": "SO20260816-0035",
+    "product_id": "P1001",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-08-16T13:27:00"
+  },
+  {
+    "order_id": "SO20260817-0052",
+    "product_id": "P1015",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-17T19:15:00"
+  },
+  {
+    "order_id": "SO20260818-0053",
+    "product_id": "P1013",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-08-18T11:59:00"
+  },
+  {
+    "order_id": "SO20260818-0043",
+    "product_id": "P1015",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-08-18T13:10:00"
+  },
+  {
+    "order_id": "SO20260818-0058",
+    "product_id": "P1011",
+    "qty": 4,
+    "amount": 32.0,
+    "status": "refund_requested",
+    "channel": "小程序",
+    "created_at": "2026-08-18T14:01:00"
+  },
+  {
+    "order_id": "SO20260819-0099",
+    "product_id": "P1001",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-19T16:13:00"
+  },
+  {
+    "order_id": "SO20260819-0055",
+    "product_id": "P1013",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "pending_payment",
+    "channel": "小程序",
+    "created_at": "2026-08-19T21:15:00"
+  },
+  {
+    "order_id": "SO20260820-0075",
+    "product_id": "P1013",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-08-20T17:27:00"
+  },
+  {
+    "order_id": "SO20260822-0116",
+    "product_id": "P1001",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-22T13:44:00"
+  },
+  {
+    "order_id": "SO20260822-0106",
+    "product_id": "P1002",
+    "qty": 2,
+    "amount": 26.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-22T14:11:00"
+  },
+  {
+    "order_id": "SO20260823-0046",
+    "product_id": "P1005",
+    "qty": 2,
+    "amount": 30.0,
+    "status": "refund_requested",
+    "channel": "外卖",
+    "created_at": "2026-08-23T12:43:00"
+  },
+  {
+    "order_id": "SO20260823-0056",
+    "product_id": "P1003",
+    "qty": 1,
+    "amount": 10.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-23T16:14:00"
+  },
+  {
+    "order_id": "SO20260824-0104",
+    "product_id": "P1004",
+    "qty": 1,
+    "amount": 16.0,
+    "status": "refund_requested",
+    "channel": "堂食",
+    "created_at": "2026-08-24T14:07:00"
+  },
+  {
+    "order_id": "SO20260824-0023",
+    "product_id": "P1009",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-24T21:46:00"
+  },
+  {
+    "order_id": "SO20260825-0078",
+    "product_id": "P1005",
+    "qty": 3,
+    "amount": 45.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-25T10:08:00"
+  },
+  {
+    "order_id": "SO20260825-0031",
+    "product_id": "P1004",
+    "qty": 2,
+    "amount": 32.0,
+    "status": "pending_ship",
+    "channel": "外卖",
+    "created_at": "2026-08-25T11:27:00"
+  },
+  {
+    "order_id": "SO20260825-0098",
+    "product_id": "P1013",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-08-25T19:24:00"
+  },
+  {
+    "order_id": "SO20260826-0026",
+    "product_id": "P1001",
+    "qty": 1,
+    "amount": 12.0,
+    "status": "refund_requested",
+    "channel": "小程序",
+    "created_at": "2026-08-26T09:14:00"
+  },
+  {
+    "order_id": "SO20260826-0112",
+    "product_id": "P1013",
+    "qty": 4,
+    "amount": 36.0,
+    "status": "shipped",
+    "channel": "外卖",
+    "created_at": "2026-08-26T13:55:00"
+  },
+  {
+    "order_id": "SO20260826-0102",
+    "product_id": "P1007",
+    "qty": 2,
+    "amount": 28.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-26T18:23:00"
+  },
+  {
+    "order_id": "SO20260827-0013",
+    "product_id": "P1011",
+    "qty": 4,
+    "amount": 32.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-08-27T16:09:00"
+  },
+  {
+    "order_id": "SO20260827-0067",
+    "product_id": "P1009",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "refunded",
+    "channel": "堂食",
+    "created_at": "2026-08-27T19:05:00"
+  },
+  {
+    "order_id": "SO20260828-0069",
+    "product_id": "P1003",
+    "qty": 1,
+    "amount": 10.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-28T16:39:00"
+  },
+  {
+    "order_id": "SO20260828-0118",
+    "product_id": "P1007",
+    "qty": 1,
+    "amount": 14.0,
+    "status": "pending_ship",
+    "channel": "堂食",
+    "created_at": "2026-08-28T19:09:00"
+  },
+  {
+    "order_id": "SO20260829-0085",
+    "product_id": "P1001",
+    "qty": 3,
+    "amount": 36.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-08-29T12:29:00"
+  },
+  {
+    "order_id": "SO20260829-0032",
+    "product_id": "P1005",
+    "qty": 4,
+    "amount": 60.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-08-29T16:51:00"
+  },
+  {
+    "order_id": "SO20260830-0049",
+    "product_id": "P1012",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-08-30T15:35:00"
+  },
+  {
+    "order_id": "SO20260902-0021",
+    "product_id": "P1015",
+    "qty": 3,
+    "amount": 27.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-09-02T09:15:00"
+  },
+  {
+    "order_id": "SO20260902-0059",
+    "product_id": "P1015",
+    "qty": 3,
+    "amount": 27.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-09-02T13:02:00"
+  },
+  {
+    "order_id": "SO20260902-0017",
+    "product_id": "P1011",
+    "qty": 3,
+    "amount": 24.0,
+    "status": "refunded",
+    "channel": "小程序",
+    "created_at": "2026-09-02T14:07:00"
+  },
+  {
+    "order_id": "SO20260902-0111",
+    "product_id": "P1009",
+    "qty": 4,
+    "amount": 48.0,
+    "status": "pending_ship",
+    "channel": "小程序",
+    "created_at": "2026-09-02T21:39:00"
+  },
+  {
+    "order_id": "SO20260904-0115",
+    "product_id": "P1003",
+    "qty": 2,
+    "amount": 20.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-09-04T10:10:00"
+  },
+  {
+    "order_id": "SO20260904-0068",
+    "product_id": "P1014",
+    "qty": 2,
+    "amount": 20.0,
+    "status": "refund_requested",
+    "channel": "外卖",
+    "created_at": "2026-09-04T12:51:00"
+  },
+  {
+    "order_id": "SO20260904-0004",
+    "product_id": "P1007",
+    "qty": 1,
+    "amount": 14.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-09-04T18:16:00"
+  },
+  {
+    "order_id": "SO20260904-0040",
+    "product_id": "P1007",
+    "qty": 3,
+    "amount": 42.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-09-04T19:45:00"
+  },
+  {
+    "order_id": "SO20260904-0022",
+    "product_id": "P1002",
+    "qty": 4,
+    "amount": 52.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-09-04T21:08:00"
+  },
+  {
+    "order_id": "SO20260905-0042",
+    "product_id": "P1009",
+    "qty": 2,
+    "amount": 24.0,
+    "status": "shipped",
+    "channel": "外卖",
+    "created_at": "2026-09-05T11:59:00"
+  },
+  {
+    "order_id": "SO20260905-0070",
+    "product_id": "P1008",
+    "qty": 4,
+    "amount": 60.0,
+    "status": "pending_payment",
+    "channel": "小程序",
+    "created_at": "2026-09-05T12:45:00"
+  },
+  {
+    "order_id": "SO20260905-0079",
+    "product_id": "P1007",
+    "qty": 4,
+    "amount": 56.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-09-05T16:26:00"
+  },
+  {
+    "order_id": "SO20260905-0027",
+    "product_id": "P1015",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-09-05T17:15:00"
+  },
+  {
+    "order_id": "SO20260905-0117",
+    "product_id": "P1011",
+    "qty": 2,
+    "amount": 16.0,
+    "status": "completed",
+    "channel": "小程序",
+    "created_at": "2026-09-05T18:42:00"
+  },
+  {
+    "order_id": "SO20260906-0012",
+    "product_id": "P1004",
+    "qty": 1,
+    "amount": 16.0,
+    "status": "completed",
+    "channel": "外卖",
+    "created_at": "2026-09-06T13:04:00"
+  },
+  {
+    "order_id": "SO20260906-0087",
+    "product_id": "P1006",
+    "qty": 2,
+    "amount": 36.0,
+    "status": "pending_payment",
+    "channel": "堂食",
+    "created_at": "2026-09-06T21:41:00"
+  },
+  {
+    "order_id": "SO20260907-0088",
+    "product_id": "P1013",
+    "qty": 1,
+    "amount": 9.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-09-07T09:39:00"
+  },
+  {
+    "order_id": "SO20260907-0007",
+    "product_id": "P1011",
+    "qty": 2,
+    "amount": 16.0,
+    "status": "refunded",
+    "channel": "外卖",
+    "created_at": "2026-09-07T10:54:00"
+  },
+  {
+    "order_id": "SO20260907-0002",
+    "product_id": "P1001",
+    "qty": 1,
+    "amount": 12.0,
+    "status": "completed",
+    "channel": "堂食",
+    "created_at": "2026-09-07T17:38:00"
+  },
+  {
+    "order_id": "SO20260907-0107",
+    "product_id": "P1001",
+    "qty": 3,
+    "amount": 36.0,
+    "status": "refund_requested",
+    "channel": "堂食",
+    "created_at": "2026-09-07T19:55:00"
+  },
+  {
+    "order_id": "SO20260909-0050",
+    "product_id": "P1002",
+    "qty": 1,
+    "amount": 13.0,
+    "status": "refund_requested",
+    "channel": "堂食",
+    "created_at": "2026-09-09T17:02:00"
+  }
+]
