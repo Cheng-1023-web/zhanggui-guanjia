@@ -1,0 +1,314 @@
+[
+  {
+    "review_id": "R0001",
+    "order_id": "SO20260731-0001",
+    "product_id": "P1002",
+    "star": 1,
+    "comment": "外卖送来冰全化了",
+    "created_at": "2026-07-31T12:00:00"
+  },
+  {
+    "review_id": "R0002",
+    "order_id": "SO20260907-0002",
+    "product_id": "P1001",
+    "star": 3,
+    "comment": "分量比上次少了很多",
+    "created_at": "2026-09-07T12:00:00"
+  },
+  {
+    "review_id": "R0003",
+    "order_id": "SO20260812-0003",
+    "product_id": "P1010",
+    "star": 2,
+    "comment": "甜度失控，齁得慌",
+    "created_at": "2026-08-12T12:00:00"
+  },
+  {
+    "review_id": "R0004",
+    "order_id": "SO20260907-0007",
+    "product_id": "P1011",
+    "star": 2,
+    "comment": "鸡米花不脆，是软的",
+    "created_at": "2026-09-07T12:00:00"
+  },
+  {
+    "review_id": "R0005",
+    "order_id": "SO20260906-0012",
+    "product_id": "P1004",
+    "star": 5,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-09-06T12:00:00"
+  },
+  {
+    "review_id": "R0006",
+    "order_id": "SO20260827-0013",
+    "product_id": "P1011",
+    "star": 2,
+    "comment": "外卖送来冰全化了",
+    "created_at": "2026-08-27T12:00:00"
+  },
+  {
+    "review_id": "R0007",
+    "order_id": "SO20260714-0014",
+    "product_id": "P1010",
+    "star": 4,
+    "comment": "芋泥很足，好评",
+    "created_at": "2026-07-14T12:00:00"
+  },
+  {
+    "review_id": "R0008",
+    "order_id": "SO20260902-0017",
+    "product_id": "P1011",
+    "star": 1,
+    "comment": "点错了想要去冰的",
+    "created_at": "2026-09-02T12:00:00"
+  },
+  {
+    "review_id": "R0009",
+    "order_id": "SO20260904-0022",
+    "product_id": "P1002",
+    "star": 5,
+    "comment": "芋泥很足，好评",
+    "created_at": "2026-09-04T12:00:00"
+  },
+  {
+    "review_id": "R0010",
+    "order_id": "SO20260714-0025",
+    "product_id": "P1009",
+    "star": 4,
+    "comment": "性价比不错",
+    "created_at": "2026-07-14T12:00:00"
+  },
+  {
+    "review_id": "R0011",
+    "order_id": "SO20260905-0027",
+    "product_id": "P1015",
+    "star": 5,
+    "comment": "芋泥很足，好评",
+    "created_at": "2026-09-05T12:00:00"
+  },
+  {
+    "review_id": "R0012",
+    "order_id": "SO20260725-0028",
+    "product_id": "P1015",
+    "star": 3,
+    "comment": "味道还行但是太贵了",
+    "created_at": "2026-07-25T12:00:00"
+  },
+  {
+    "review_id": "R0013",
+    "order_id": "SO20260712-0034",
+    "product_id": "P1013",
+    "star": 1,
+    "comment": "包装漏了，洒了一半",
+    "created_at": "2026-07-12T12:00:00"
+  },
+  {
+    "review_id": "R0014",
+    "order_id": "SO20260808-0038",
+    "product_id": "P1015",
+    "star": 5,
+    "comment": "芋泥很足，好评",
+    "created_at": "2026-08-08T12:00:00"
+  },
+  {
+    "review_id": "R0015",
+    "order_id": "SO20260904-0040",
+    "product_id": "P1007",
+    "star": 1,
+    "comment": "点错了想要去冰的",
+    "created_at": "2026-09-04T12:00:00"
+  },
+  {
+    "review_id": "R0016",
+    "order_id": "SO20260818-0043",
+    "product_id": "P1015",
+    "star": 5,
+    "comment": "性价比不错",
+    "created_at": "2026-08-18T12:00:00"
+  },
+  {
+    "review_id": "R0017",
+    "order_id": "SO20260713-0048",
+    "product_id": "P1014",
+    "star": 1,
+    "comment": "点错了想要去冰的",
+    "created_at": "2026-07-13T12:00:00"
+  },
+  {
+    "review_id": "R0018",
+    "order_id": "SO20260823-0056",
+    "product_id": "P1003",
+    "star": 5,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-08-23T12:00:00"
+  },
+  {
+    "review_id": "R0019",
+    "order_id": "SO20260719-0057",
+    "product_id": "P1013",
+    "star": 1,
+    "comment": "点错了想要去冰的",
+    "created_at": "2026-07-19T12:00:00"
+  },
+  {
+    "review_id": "R0020",
+    "order_id": "SO20260902-0059",
+    "product_id": "P1015",
+    "star": 5,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-09-02T12:00:00"
+  },
+  {
+    "review_id": "R0021",
+    "order_id": "SO20260813-0060",
+    "product_id": "P1010",
+    "star": 5,
+    "comment": "性价比不错",
+    "created_at": "2026-08-13T12:00:00"
+  },
+  {
+    "review_id": "R0022",
+    "order_id": "SO20260729-0063",
+    "product_id": "P1007",
+    "star": 5,
+    "comment": "孩子很喜欢",
+    "created_at": "2026-07-29T12:00:00"
+  },
+  {
+    "review_id": "R0023",
+    "order_id": "SO20260827-0067",
+    "product_id": "P1009",
+    "star": 5,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-08-27T12:00:00"
+  },
+  {
+    "review_id": "R0024",
+    "order_id": "SO20260718-0076",
+    "product_id": "P1015",
+    "star": 2,
+    "comment": "鸡米花不脆，是软的",
+    "created_at": "2026-07-18T12:00:00"
+  },
+  {
+    "review_id": "R0025",
+    "order_id": "SO20260825-0078",
+    "product_id": "P1005",
+    "star": 1,
+    "comment": "分量比上次少了很多",
+    "created_at": "2026-08-25T12:00:00"
+  },
+  {
+    "review_id": "R0026",
+    "order_id": "SO20260905-0079",
+    "product_id": "P1007",
+    "star": 5,
+    "comment": "性价比不错",
+    "created_at": "2026-09-05T12:00:00"
+  },
+  {
+    "review_id": "R0027",
+    "order_id": "SO20260809-0083",
+    "product_id": "P1001",
+    "star": 3,
+    "comment": "包装漏了，洒了一半",
+    "created_at": "2026-08-09T12:00:00"
+  },
+  {
+    "review_id": "R0028",
+    "order_id": "SO20260801-0084",
+    "product_id": "P1009",
+    "star": 4,
+    "comment": "柠檬茶很清爽",
+    "created_at": "2026-08-01T12:00:00"
+  },
+  {
+    "review_id": "R0029",
+    "order_id": "SO20260829-0085",
+    "product_id": "P1001",
+    "star": 5,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-08-29T12:00:00"
+  },
+  {
+    "review_id": "R0030",
+    "order_id": "SO20260907-0088",
+    "product_id": "P1013",
+    "star": 1,
+    "comment": "分量比上次少了很多",
+    "created_at": "2026-09-07T12:00:00"
+  },
+  {
+    "review_id": "R0031",
+    "order_id": "SO20260813-0094",
+    "product_id": "P1011",
+    "star": 5,
+    "comment": "好喝，回购第三次了",
+    "created_at": "2026-08-13T12:00:00"
+  },
+  {
+    "review_id": "R0032",
+    "order_id": "SO20260819-0099",
+    "product_id": "P1001",
+    "star": 2,
+    "comment": "点错了想要去冰的",
+    "created_at": "2026-08-19T12:00:00"
+  },
+  {
+    "review_id": "R0033",
+    "order_id": "SO20260805-0100",
+    "product_id": "P1001",
+    "star": 5,
+    "comment": "柠檬茶很清爽",
+    "created_at": "2026-08-05T12:00:00"
+  },
+  {
+    "review_id": "R0034",
+    "order_id": "SO20260826-0102",
+    "product_id": "P1007",
+    "star": 5,
+    "comment": "孩子很喜欢",
+    "created_at": "2026-08-26T12:00:00"
+  },
+  {
+    "review_id": "R0035",
+    "order_id": "SO20260724-0105",
+    "product_id": "P1009",
+    "star": 5,
+    "comment": "性价比不错",
+    "created_at": "2026-07-24T12:00:00"
+  },
+  {
+    "review_id": "R0036",
+    "order_id": "SO20260822-0106",
+    "product_id": "P1002",
+    "star": 4,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-08-22T12:00:00"
+  },
+  {
+    "review_id": "R0037",
+    "order_id": "SO20260723-0108",
+    "product_id": "P1008",
+    "star": 1,
+    "comment": "点错了想要去冰的",
+    "created_at": "2026-07-23T12:00:00"
+  },
+  {
+    "review_id": "R0038",
+    "order_id": "SO20260904-0115",
+    "product_id": "P1003",
+    "star": 5,
+    "comment": "柠檬茶很清爽",
+    "created_at": "2026-09-04T12:00:00"
+  },
+  {
+    "review_id": "R0039",
+    "order_id": "SO20260713-0119",
+    "product_id": "P1005",
+    "star": 5,
+    "comment": "出品稳定，下次还点",
+    "created_at": "2026-07-13T12:00:00"
+  }
+]
