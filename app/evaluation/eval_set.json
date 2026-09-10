@@ -1,0 +1,440 @@
+[
+  {
+    "id": "q01",
+    "query": "柠檬茶现在卖多少钱一杯",
+    "category": "商品查询",
+    "expect": {
+      "tool": "query_products",
+      "args_contains": {
+        "keyword": "柠檬茶"
+      }
+    }
+  },
+  {
+    "id": "q02",
+    "query": "店里有哪些烘焙类的产品",
+    "category": "商品查询",
+    "expect": {
+      "tool": "query_products",
+      "args_eq": {
+        "category": "烘焙"
+      }
+    }
+  },
+  {
+    "id": "q03",
+    "query": "卖得最好的前3个商品是什么",
+    "category": "商品查询",
+    "expect": {
+      "tool": "query_products",
+      "args_contains": {
+        "sort_by": "sales"
+      }
+    }
+  },
+  {
+    "id": "q04",
+    "query": "30块以内的小食有哪些",
+    "category": "商品查询",
+    "expect": {
+      "tool": "query_products",
+      "args_contains": {
+        "category": "小食",
+        "max_price": 30
+      }
+    }
+  },
+  {
+    "id": "q05",
+    "query": "水果类商品按评分排一下",
+    "category": "商品查询",
+    "expect": {
+      "tool": "query_products",
+      "args_contains": {
+        "category": "水果",
+        "sort_by": "rating"
+      }
+    }
+  },
+  {
+    "id": "q06",
+    "query": "把P1003的价格改成9块9",
+    "category": "商品改价",
+    "expect": {
+      "tool": "update_price",
+      "args_contains": {
+        "product_ref": "P1003",
+        "new_price": 9.9
+      }
+    }
+  },
+  {
+    "id": "q07",
+    "query": "招牌柠檬茶降价到11元",
+    "category": "商品改价",
+    "expect": {
+      "tool": "update_price",
+      "args_contains": {
+        "product_ref": "P1001",
+        "new_price": 11.0
+      }
+    }
+  },
+  {
+    "id": "q08",
+    "query": "把提拉米苏调价到15块",
+    "category": "商品改价",
+    "expect": {
+      "tool": "update_price",
+      "args_contains": {
+        "product_ref": "P1008",
+        "new_price": 15.0
+      }
+    }
+  },
+  {
+    "id": "q09",
+    "query": "现在哪些商品库存不足",
+    "category": "库存管理",
+    "expect": {
+      "tool": "check_inventory",
+      "args_eq": {
+        "low_only": true
+      }
+    }
+  },
+  {
+    "id": "q10",
+    "query": "查一下P1007的库存",
+    "category": "库存管理",
+    "expect": {
+      "tool": "check_inventory",
+      "args_contains": {
+        "product_ref": "P1007"
+      }
+    }
+  },
+  {
+    "id": "q11",
+    "query": "椰奶冻还剩多少货",
+    "category": "库存管理",
+    "expect": {
+      "tool": "check_inventory",
+      "args_contains": {
+        "product_ref": "P1015"
+      }
+    }
+  },
+  {
+    "id": "q12",
+    "query": "现在库存最紧张的商品是哪些",
+    "category": "库存管理",
+    "expect": {
+      "tool": "check_inventory",
+      "args_eq": {
+        "low_only": false
+      }
+    }
+  },
+  {
+    "id": "q13",
+    "query": "给P1005补货80件",
+    "category": "补货登记",
+    "expect": {
+      "tool": "restock_product",
+      "args_contains": {
+        "product_ref": "P1005",
+        "add_qty": 80
+      }
+    }
+  },
+  {
+    "id": "q14",
+    "query": "椰奶冻库存不多了，补100份",
+    "category": "补货登记",
+    "expect": {
+      "tool": "restock_product",
+      "args_contains": {
+        "product_ref": "P1015",
+        "add_qty": 100
+      }
+    }
+  },
+  {
+    "id": "q15",
+    "query": "帮我查一下订单SO20260905-0042",
+    "category": "订单查询",
+    "expect": {
+      "tool": "query_orders",
+      "args_contains": {
+        "order_id": "SO20260905-0042"
+      }
+    }
+  },
+  {
+    "id": "q16",
+    "query": "今天有哪些待发货的订单",
+    "category": "订单查询",
+    "expect": {
+      "tool": "query_orders",
+      "args_contains": {
+        "status": "pending_ship"
+      }
+    }
+  },
+  {
+    "id": "q17",
+    "query": "查一下上周六的订单",
+    "category": "订单查询",
+    "expect": {
+      "tool": "query_orders",
+      "args_contains": {
+        "date_expr": "上周六"
+      }
+    }
+  },
+  {
+    "id": "q18",
+    "query": "昨天卖了多少单",
+    "category": "订单统计",
+    "expect": {
+      "tool": "order_stats",
+      "args_contains": {
+        "date_expr": "昨天"
+      }
+    }
+  },
+  {
+    "id": "q19",
+    "query": "最近7天的营业额和订单量是多少",
+    "category": "订单统计",
+    "expect": {
+      "tool": "order_stats",
+      "args_contains": {
+        "date_expr": "最近7天"
+      }
+    }
+  },
+  {
+    "id": "q20",
+    "query": "这个月的客单价怎么样",
+    "category": "订单统计",
+    "expect": {
+      "tool": "order_stats",
+      "args_contains": {
+        "date_expr": "本月"
+      }
+    }
+  },
+  {
+    "id": "q21",
+    "query": "上个月的销售报表按品类汇总",
+    "category": "销售报表",
+    "expect": {
+      "tool": "sales_report",
+      "args_contains": {
+        "group_by": "category",
+        "date_expr": "上月"
+      }
+    }
+  },
+  {
+    "id": "q22",
+    "query": "8月份哪款产品卖得最好",
+    "category": "销售报表",
+    "expect": {
+      "tool": "sales_report",
+      "args_contains": {
+        "group_by": "product"
+      }
+    }
+  },
+  {
+    "id": "q23",
+    "query": "9月1日到9月3日每天的销售额",
+    "category": "销售报表",
+    "expect": {
+      "tool": "sales_report",
+      "args_contains": {
+        "group_by": "day"
+      }
+    }
+  },
+  {
+    "id": "q24",
+    "query": "订单SO20260805-0103申请了退款，帮我处理一下，理由是商品质量问题",
+    "category": "退款处理",
+    "expect": {
+      "tool": "process_refund",
+      "args_contains": {
+        "order_id": "SO20260805-0103"
+      }
+    }
+  },
+  {
+    "id": "q25",
+    "query": "查一下目前有多少退款申请",
+    "category": "退款处理",
+    "expect": {
+      "tool": "query_orders",
+      "args_contains": {
+        "status": "refund_requested"
+      }
+    }
+  },
+  {
+    "id": "q26",
+    "query": "SO20260812-0120要退款，客人说点错了",
+    "category": "退款处理",
+    "expect": {
+      "tool": "process_refund",
+      "args_contains": {
+        "order_id": "SO20260812-0120"
+      }
+    }
+  },
+  {
+    "id": "q27",
+    "query": "创建一张满20减5的优惠券，限量100张，有效期7天",
+    "category": "优惠券",
+    "expect": {
+      "tool": "create_coupon",
+      "args_contains": {
+        "type": "money",
+        "threshold": 20,
+        "discount": 5,
+        "quota": 100
+      }
+    }
+  },
+  {
+    "id": "q28",
+    "query": "搞一张全场8.8折券，用3天",
+    "category": "优惠券",
+    "expect": {
+      "tool": "create_coupon",
+      "args_contains": {
+        "type": "rate",
+        "discount": 0.88
+      }
+    }
+  },
+  {
+    "id": "q29",
+    "query": "新客立减3元的无门槛券，50张",
+    "category": "优惠券",
+    "expect": {
+      "tool": "create_coupon",
+      "args_contains": {
+        "type": "money",
+        "threshold": 0,
+        "discount": 3
+      }
+    }
+  },
+  {
+    "id": "q30",
+    "query": "柠檬茶最近卖不动，有什么促销建议",
+    "category": "营销策划",
+    "expect": {
+      "tool": "suggest_campaign",
+      "args_contains": {
+        "goal": "清仓去库"
+      }
+    }
+  },
+  {
+    "id": "q31",
+    "query": "七夕快到了，帮我策划一个拉新活动",
+    "category": "营销策划",
+    "expect": {
+      "tool": "suggest_campaign",
+      "args_contains": {
+        "goal": "拉新引流"
+      }
+    }
+  },
+  {
+    "id": "q32",
+    "query": "老客人最近来得少了，怎么办",
+    "category": "营销策划",
+    "expect": {
+      "tool": "suggest_campaign",
+      "args_contains": {
+        "goal": "复购召回"
+      }
+    }
+  },
+  {
+    "id": "q33",
+    "query": "统计上个月的销售，然后给卖得最差的品类出个清仓方案",
+    "category": "多步规划",
+    "expect": {
+      "tools": [
+        "sales_report",
+        "suggest_campaign"
+      ],
+      "sequential": true
+    }
+  },
+  {
+    "id": "q34",
+    "query": "最近有哪些差评",
+    "category": "评价管理",
+    "expect": {
+      "tool": "query_reviews",
+      "args_eq": {}
+    }
+  },
+  {
+    "id": "q35",
+    "query": "P1009的评价怎么样",
+    "category": "评价管理",
+    "expect": {
+      "tool": "query_reviews",
+      "args_contains": {
+        "product_ref": "P1009"
+      }
+    }
+  },
+  {
+    "id": "q36",
+    "query": "你是谁",
+    "category": "闲聊拒答",
+    "expect": {
+      "tool": null
+    }
+  },
+  {
+    "id": "q37",
+    "query": "今天天气怎么样",
+    "category": "闲聊拒答",
+    "expect": {
+      "tool": null
+    }
+  },
+  {
+    "id": "q38",
+    "query": "帮我写一首诗",
+    "category": "闲聊拒答",
+    "expect": {
+      "tool": null
+    }
+  },
+  {
+    "id": "q39",
+    "query": "帮我把价格改一下",
+    "category": "澄清反问",
+    "expect": {
+      "clarify": true
+    }
+  },
+  {
+    "id": "q40",
+    "query": "那个订单退款帮我处理下",
+    "category": "澄清反问",
+    "expect": {
+      "clarify": true
+    }
+  }
+]
